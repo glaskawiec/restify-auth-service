@@ -1,0 +1,33 @@
+{
+  "port": 8080,
+  "errorLogFilePath": "/logs",
+  "docsPath": "/docs/swagger",
+  "serverPrefix": "http://localhost:8080",
+  "webAppOrigin": "http://localhost:8000",
+  "resetPasswordUrl": "http://localhost:8000/app/reset-password",
+  "jwtSecret": "REPLACE_IT",
+  "jwtTokenExpiresIn": "15min",
+  "mongoConnectionString": "REPLACE_IT",
+  "smtp": {
+    "user": "REPLACE_IT",
+    "pass": "REPLACE_IT",
+    "port": 465,
+    "host": "smtp.gmail.com"
+  },
+  "facebook": {
+    "loginPath": "/v1/auth/facebook-login",
+    "callbackPath": "/v1/auth/facebook/callback",
+    "appId": "REPLACE_IT",
+    "appSecret": "REPLACE_IT"
+  },
+  "google": {
+    "clientId": "REPLACE_IT",
+    "clientSecret": "REPLACE_IT",
+    "callbackUrl": "/v1/auth/google/callback"
+  },
+  "github": {
+    "clientId": "REPLACE_IT",
+    "clientSecret": "REPLACE_IT",
+    "callbackUrl": "/v1/auth/github/callback"
+  }
+}
